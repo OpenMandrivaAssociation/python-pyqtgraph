@@ -2,12 +2,12 @@
 %global srcname pyqtgraph
 
 Name:           python-%{srcname}
-Version:        0.11.1
-Release:        2%{?dist}
+Version:        0.13.3
+Release:        1
 Summary:        Scientific Graphics and GUI Library for Python
 License:        MIT
 URL:            http://www.pyqtgraph.org/
-Source0:	https://files.pythonhosted.org/packages/43/96/38548a7a52cb106242665370064a5db3da0e72d4a7460fc690d6cb51e14f/pyqtgraph-0.11.1.tar.gz
+Source0:	https://files.pythonhosted.org/packages/source/p/pyqtgraph/pyqtgraph-%{version}.tar.gz
 # git clone https://github.com/pyqtgraph/test-data
 # tar -zcf pyqtgraph-test-data-5498050.tar.gz test-data
 Source1:        pyqtgraph-test-data-5498050.tar.gz
@@ -36,8 +36,6 @@ This package provides documentation for the %{srcname} library.
 %prep
 %autosetup -p1 -n %{srcname}-%{version}
 %setup -T -D -b 1 -n %{srcname}-%{version}
-mkdir ~/.pyqtgraph
-mv ../test-data ~/.pyqtgraph
 
 %build
 %py_build
