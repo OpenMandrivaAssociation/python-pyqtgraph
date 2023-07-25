@@ -10,7 +10,7 @@ URL:            http://www.pyqtgraph.org/
 Source0:	https://files.pythonhosted.org/packages/source/p/pyqtgraph/pyqtgraph-%{version}.tar.gz
 # git clone https://github.com/pyqtgraph/test-data
 # tar -zcf pyqtgraph-test-data-5498050.tar.gz test-data
-Source1:        pyqtgraph-test-data-5498050.tar.gz
+#Source1:        pyqtgraph-test-data-5498050.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  python-devel
@@ -35,7 +35,6 @@ This package provides documentation for the %{srcname} library.
 
 %prep
 %autosetup -p1 -n %{srcname}-%{version}
-%setup -T -D -b 1 -n %{srcname}-%{version}
 
 %build
 %py_build
