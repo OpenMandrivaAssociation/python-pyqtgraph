@@ -2,7 +2,7 @@
 %global srcname pyqtgraph
 
 Name:           python-%{srcname}
-Version:        0.13.3
+Version:        0.13.7
 Release:        1
 Summary:        Scientific Graphics and GUI Library for Python
 License:        MIT
