@@ -6,7 +6,7 @@ Version:        0.13.7
 Release:        1
 Summary:        Scientific Graphics and GUI Library for Python
 License:        MIT
-URL:            http://www.pyqtgraph.org/
+URL:            https://www.pyqtgraph.org/
 Source0:	https://files.pythonhosted.org/packages/source/p/pyqtgraph/pyqtgraph-%{version}.tar.gz
 # git clone https://github.com/pyqtgraph/test-data
 # tar -zcf pyqtgraph-test-data-5498050.tar.gz test-data
