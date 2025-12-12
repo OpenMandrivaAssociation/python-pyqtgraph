@@ -3,7 +3,7 @@
 
 Name:           python-%{srcname}
 Version:        0.13.7
-Release:        1
+Release:        2
 Summary:        Scientific Graphics and GUI Library for Python
 License:        MIT
 URL:            https://www.pyqtgraph.org/
