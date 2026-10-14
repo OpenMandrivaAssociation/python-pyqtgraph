@@ -3,7 +3,7 @@
 
 Name:		python-pyqtgraph
 Version:	0.14.0
-Release:	1
+Release:	2
 Summary:	Scientific Graphics and GUI Library for Python
 License:	MIT
 URL:		https://www.pyqtgraph.org/
